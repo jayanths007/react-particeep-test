@@ -1,0 +1,31 @@
+.Black-Shade {
+  width: 600px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  bottom: 200px;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  border-radius: 15px;
+}
+.image {
+  border-radius: 15px;
+}
+.Title {
+  color: white;
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  top: 95px;
+  left: 20px;
+}
+.Des {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
